@@ -1,0 +1,32 @@
+{
+  "name": "tarea-2-ayd1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Msaban1906/Tarea-2-AYD1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Msaban1906/Tarea-2-AYD1/issues"
+  },
+  "homepage": "https://gitlab.com/Msaban1906/Tarea-2-AYD1#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
